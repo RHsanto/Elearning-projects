@@ -1,0 +1,82 @@
+[
+  {
+    "key": 1,
+    "courseName": "Creative UI / UX Design Courses ",
+    "courseThumb": "https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80",
+    "price": 82,
+    "previousPrice": 98,
+    "rating": 4.5,
+    "ratingPeople": 88,
+    "courseDescription": "Join Google’s Cinthya Mohr for this thorough introduction to the world of UX design. In this 45-minute class, Cinthya will teach you to look at the user’s entire experience with your product, so you can create designs that serve your user effectively at every touchpoint. By the end of the class, you’ll have the tools you need to design digital products that keep your users engaged and give you the results you’re looking for."
+  },
+  {
+    "key": 2,
+    "courseName": "Digital Marketing Courses",
+    "courseThumb": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80",
+    "price": 68,
+    "previousPrice": 80,
+    "rating": 3.5,
+    "ratingPeople": 65,
+    "courseDescription": "Grow Your Business with Digital Marketing: Social Media Marketing, Facebook, Content, YouTube, Email Marketing, Websites"
+  },
+  {
+    "key": 3,
+    "courseName": "Creative Graphic Design Courses",
+    "courseThumb": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    "price": 80,
+    "previousPrice": 120,
+    "rating": 4,
+    "ratingPeople": 48,
+    "courseDescription": "Our graphic design courses can prepare you for a wide range of careers, from video game design to marketing. Whether you want to learn a new design software like Affinity Designer, improve your drawing skills, or start your own design business, Udemy has a course to help you achieve your goals."
+  },
+  {
+    "key": 4,
+    "courseName": "Fundamentals of music theory Learn new",
+    "courseThumb": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+    "price": 60,
+    "previousPrice": 75,
+    "rating": 4.8,
+    "ratingPeople": 51,
+    "courseDescription": "This course covers the fundamentals of Western music theory, from the absolute basics to some more advanced concepts and, as such, is the perfect course for beginners and more experienced musicians alike."
+  },
+  {
+    "key": 5,
+    "courseName": "The business Intelligence analyst Course 2022",
+    "courseThumb": "https://images.unsplash.com/flagged/photo-1576485436509-a7d286952b65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "price": 82,
+    "previousPrice": 98,
+    "rating": 4.5,
+    "ratingPeople": 88,
+    "courseDescription": "Join Google’s Cinthya Mohr for this thorough introduction to the world of UX design. In this 45-minute class, Cinthya will teach you to look at the user’s entire experience with your product, so you can create designs that serve your user effectively at every touchpoint. By the end of the class, you’ll have the tools you need to design digital products that keep your users engaged and give you the results you’re looking for."
+  },
+  {
+    "key": 6,
+    "courseName": "Build your media and Public presence",
+    "courseThumb": "https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1465&q=80",
+    "price": 90,
+    "previousPrice": 120,
+    "rating": 4.8,
+    "ratingPeople": 80,
+    "courseDescription": "Grow Your Business with Digital Marketing: Social Media Marketing, Facebook, Content, YouTube, Email Marketing, Websites"
+  },
+  {
+    "key": 7,
+    "courseName": "Become a product Manager learn the skills & job.",
+    "courseThumb": "https://images.unsplash.com/photo-1552581234-26160f608093?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+    "price": 100,
+    "previousPrice": 120,
+    "rating": 4.3,
+    "ratingPeople": 66,
+    "courseDescription": "Our graphic design courses can prepare you for a wide range of careers, from video game design to marketing. Whether you want to learn a new design software like Affinity Designer, improve your drawing skills, or start your own design business, Udemy has a course to help you achieve your goals."
+  },
+  {
+    "key": 8,
+    "courseName": "Strategy law and organization Foundation",
+    "courseThumb": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+    "price": 70,
+    "previousPrice": 85,
+    "rating": 4.6,
+    "ratingPeople": 70,
+    "courseDescription": "This course covers the fundamentals of Western music theory, from the absolute basics to some more advanced concepts and, as such, is the perfect course for beginners and more experienced musicians alike."
+  }
+]

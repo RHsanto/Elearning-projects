@@ -1,0 +1,32 @@
+.error-div{
+  background-color: #030005;
+  padding: 100px;
+  height:1007px;
+}
+.error{
+  font-size: 15em;
+  font-weight: 800;
+  color: #030005;
+  text-shadow: -1px -1px 0 #8400ff, 1px 1px 0 #ff005a;
+  }
+  .error-message{
+    color: rgb(14, 13, 13);
+    text-shadow: 0 2px 0 #8400ff;
+    font-size: 4em;
+    text-transform:uppercase;
+    margin-bottom: 50px;
+  }
+  
+  .button{
+    border: 0;
+    padding: 10px 40px;
+    color: #ff005a;
+    border: 2px solid #ff005a;
+    background: black;
+    font-weight: 700;
+  
+  }
+  .button:hover{
+    color: #8400FF;
+    border: 2px solid #8400FF;
+  }
