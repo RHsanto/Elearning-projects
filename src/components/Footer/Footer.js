@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-5 p-5">
             {/* footer logo here */}
-            <h2 className='footer-logo '>E-LEARNER</h2>
+            <h2 className='footer-logo '>E-LEARNING</h2>
             <p className='footer-message'>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</p>
             {/* footer icon here */}
             <div className="footer-icon">

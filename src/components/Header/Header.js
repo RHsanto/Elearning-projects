@@ -13,7 +13,7 @@ const Header = () => {
     <div className=' header  text-light'>
      <div className="container menu-items text-uppercase d-flex justify-content-between">
      <div className="logo ">
-        <h1 className='fw-bold'>E-learner</h1>
+        <h1 className='fw-bold'>E-learning</h1>
       </div>
 
   {/****  nav start ******/}
