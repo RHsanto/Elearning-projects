@@ -15,16 +15,17 @@ const Course = () => {
       
       <Header></Header>
          <div className='mt-5'>
-           <h1 className='fw-bolder'>Find The Right
-             Online Course For You
-         </h1>
+           {/* courses message */}
+           <h1 className='fw-bolder'>Find The Right Online Course For You</h1>
          <p>You don't have to struggle alone, you've got our assistance and help.</p>
       </div>
+
+      {/* All courses are shown in UI */}
       <div  className="row row-cols-1 row-cols-md-4 g-4 m-5">
       {
          courses.map(course=> <div  className='container' key={course.key}>
-           
         <div  className="col">
+          {/* card here */}
            <div  className="card  text-start ">
              <img src={course.courseThumb}  className="card-img-top" alt="img"/>
            <div  className="card-body p-4">

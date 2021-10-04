@@ -10,6 +10,7 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
+  {/* route all component */}
      <Router>
        <Switch>
          <Route exact path='/'>

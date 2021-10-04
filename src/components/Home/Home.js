@@ -12,11 +12,14 @@ const Home = () => {
   },[])
   return (
     <div>
+      {/* header section here */}
       <Header></Header>
+      {/* 4 courses are shown in UI */}
       {
     courses.map(course=> <div className='my-5'
      key={course.key}
      >
+ {/* course card here */}
   <div className="card text-start home-card shadow-lg" >
     <div className="row ">
        <div className="col-md-5">
@@ -32,11 +35,11 @@ const Home = () => {
         </div>
       </div>
     </div>
-  </div>
-</div>
-         
-         </div>)
+        </div>
+          </div>     
+             </div>)
        }
+       {/* footer section here */}
       <Footer></Footer>
     </div>
   );

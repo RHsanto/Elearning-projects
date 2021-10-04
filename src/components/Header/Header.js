@@ -3,20 +3,22 @@ import {  NavLink } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
 
+  // navlink style 
   const style = {
     fontWeight: "bolder",
     color: "black"
   }
   return (
+    // Headr start
     <div className=' header  text-light'>
      <div className="container menu-items text-uppercase d-flex justify-content-between">
      <div className="logo ">
-        <h1>E-learner</h1>
+        <h1 className='fw-bold'>E-learner</h1>
       </div>
+
+  {/****  nav start ******/}
     <nav className='d-flex '>
-      <NavLink className='items' to='/home'
-       activeStyle={style}
-      >
+      <NavLink className='items' to='/home' activeStyle={style}>
       <li>Home</li>
       </NavLink>
       <NavLink className='items' to='/course' activeStyle={style}>
@@ -29,6 +31,8 @@ const Header = () => {
       <li>contact</li>
       </NavLink>
         </nav>
+
+   {/* nav icon here */}
          <div className="icon">
          <i className="fas fa-shopping-cart"></i>
              <i className="fas fa-user"></i>
@@ -36,9 +40,10 @@ const Header = () => {
              <i className="fas fa-search"></i>
          </div>
      </div>
+     {/* header ui message */}
       <div className="container">
         <div className="row">
-          <div className="col message  ">
+          <div className="col message ">
             <h1>Launch your <br />
              Own online yellow-shapelearning Platform</h1>
           </div>

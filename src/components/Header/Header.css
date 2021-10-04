@@ -1,7 +1,8 @@
+
 body{
   font-family: 'Montserrat', sans-serif;
 }
-
+/* header part css style */
 .header{
   background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80');
   background-blend-mode: overlay;
@@ -10,13 +11,9 @@ body{
   background-position: top -150px center;
   height: 600px;
   width: 100%;
-}
-.logo h1{
-  font-weight: 800;
-  
- 
-}
+} 
 
+/* all nav bar css */
 .items {
 text-decoration: none ;
 list-style: none;
@@ -26,15 +23,18 @@ color: white;
 font-weight: bold;
 letter-spacing: 2px;
 }
+/* all navbar hover */
 .items:hover{
   color: black;
 }
+/* icon css */
 .icon i{
   margin-left: 30px;
   margin-top: 20px;
   font-size: 20px;
 }
 
+/* header ui message */
 .message h1{
 margin-top: 20%;
 font-weight: 800;
