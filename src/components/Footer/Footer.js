@@ -11,7 +11,10 @@ const Footer = () => {
           <div className="col-5 p-5">
             {/* footer logo here */}
             <h2 className='footer-logo '>E-LEARNING</h2>
-            <p className='footer-message'>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</p>
+            <p className='footer-message'> <span> <i class="fas fa-map-marked-alt text-success"></i> Gulsan Avenue</span> <br />  Dhaka , Bangladesh <br />
+              <span><i class="fas fa-phone-alt text-danger"></i>  Helpline : +880 188 555 999</span>
+                        
+            </p>
             {/* footer icon here */}
             <div className="footer-icon">
             <i className="fab fa-facebook-f"></i>
@@ -45,6 +48,9 @@ const Footer = () => {
             <button className='border-0 arrow'><i className="fas fa-arrow-right"></i></button>
           </div>
         </div>
+      </div>
+      <div className="copyright">
+        <p className='text-light'>Copyright © 2021 E-learning.com</p>
       </div>
       </footer>
     </div>

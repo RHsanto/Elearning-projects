@@ -14,7 +14,8 @@ const Home = () => {
     <div>
       {/* header section here */}
       <Header></Header>
-      {/* 4 courses are shown in UI */}
+    {/* 4 courses are shown in UI */}
+
       {
     courses.map(course=> <div className='my-5'
      key={course.key}
@@ -27,12 +28,13 @@ const Home = () => {
     </div>
     <div className="col-md-7">
       <div className="card-body ">
-        <h2 className="card-title mb-4 fw-bolder">{course.courseName}</h2>
+        <h3 className="card-title  fw-bolder">{course.courseName}</h3>
         <p className="card-text">{course.courseDescription.slice(0,150)}</p>
         <p className="card-text"><small className="text-muted"><i className="fas fa-star text-warning"></i> {course.rating} ({course.ratingPeople})</small></p>
         <div className=" mt-4">
           <h5 className='fw-bold'>Price : <span> ${course.price}</span> <small className='fw-normal'><del>{course.previousPrice}</del></small></h5>
         </div>
+        <button type="button" class="btn btn-primary mt-4">Buy Now</button>
       </div>
     </div>
         </div>

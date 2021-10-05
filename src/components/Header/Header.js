@@ -10,7 +10,7 @@ const Header = () => {
   }
   return (
     // Headr start
-    <div className=' header  text-light'>
+    <div className=' header text-light'>
      <div className="container menu-items text-uppercase d-flex justify-content-between">
      <div className="logo ">
         <h1 className='fw-bold'>E-learning</h1>

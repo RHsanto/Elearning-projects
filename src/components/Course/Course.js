@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-
+import './Course.css'
 const Course = () => {
   const[courses,setCourses]=useState([]);
 
@@ -26,18 +26,19 @@ const Course = () => {
          courses.map(course=> <div  className='container' key={course.key}>
         <div  className="col">
           {/* card here */}
-           <div  className="card  text-start ">
-             <img src={course.courseThumb}  className="card-img-top" alt="img"/>
+           <div  className="card course-card  text-start ">
+             <img src={course.courseThumb}  className="card-img-top course-img" alt="img"/>
            <div  className="card-body p-4">
          <h5  className="card-title fw-bold">{course.courseName}</h5>
          <h6 className='fw-bold my-3'> Price : ${course.price}  <small className=''><del>{course.previousPrice}</del></small></h6> 
          <p className="card-text">{course.courseDescription.slice(0,150)}</p>
-         <h6 className='d-flex justify-content-between'>
-           <i className="fas fa-star text-warning"><span className='text-dark'> {course.rating}</span></i>
+         <h6 className='d-flex'>
+           <i className="fas fa-star text-warning me-4 mt-3"><span className='text-dark'> {course.rating}</span></i>
            <div className="people">
-           <i className="fas fa-user text-primary"><span className='text-dark'> ({course.ratingPeople})</span></i>
+           <i className="fas fa-user text-primary mt-3"><span className='text-dark'> ( {course.ratingPeople} )</span></i>
            </div>
          </h6>
+         <button type="button" class="btn btn-primary mt-4">Buy Now</button>
       </div>
     </div>
   </div>
