@@ -28,8 +28,11 @@ letter-spacing: 2px;
   color: black;
 }
 /* icon css */
+.icon{
+  margin-left: 50px;
+}
 .icon i{
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 20px;
   font-size: 20px;
 }

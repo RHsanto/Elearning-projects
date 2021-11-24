@@ -3,17 +3,18 @@ import {  NavLink } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
 
-  // navlink style 
+  // nav link style 
   const style = {
     fontWeight: "bolder",
     color: "black"
   }
   return (
-    // Headr start
-    <div className=' header text-light'>
+    // Header start
+    <div className=' header  text-light'>
      <div className="container menu-items text-uppercase d-flex justify-content-between">
      <div className="logo ">
         <h1 className='fw-bold'>E-learning</h1>
+      
       </div>
 
   {/****  nav start ******/}
@@ -45,7 +46,7 @@ const Header = () => {
         <div className="row">
           <div className="col message ">
             <h1>Launch your <br />
-             Own online yellow-shapelearning Platform</h1>
+             Own online yellow-shape learning Platform</h1>
           </div>
         </div>
       </div>
